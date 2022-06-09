@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b21cfdc-6f7a-4641-9e74-5670dadcf015" name="Changes" comment="Opening the matirces" />
+    <list default="true" id="1b21cfdc-6f7a-4641-9e74-5670dadcf015" name="Changes" comment="Opening the matirces">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.R" beforeDir="false" afterPath="$PROJECT_DIR$/Test.R" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654780545558</updated>
       <workItem from="1654780546981" duration="18000" />
-      <workItem from="1654780621621" duration="375000" />
+      <workItem from="1654780621621" duration="2573000" />
     </task>
     <task id="LOCAL-00001" summary="Opening the matirces">
       <created>1654780703065</created>
@@ -44,7 +47,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654780703065</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Opening the matirces">
+      <created>1654781035413</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654781035413</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
