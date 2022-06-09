@@ -1,2 +1,2 @@
-# data_cleaning
-Data Cleaning by Igor and Iwo
+# Assignment 3
+Maxwell Litsios, Pepijn Hamburg, Sneha Ajay
