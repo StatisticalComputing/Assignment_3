@@ -27,7 +27,7 @@ test_data_2007 <- cbind(gene_table2007, vaccine_table2007)
 ### - Exercise 1 [1 point] - ###
 # Since the best linear model can only be allowed to contain at most
 # four predictors and there are 20 possible predictors in total.
-# Hence, (20!)/(20!*0!) (20!/(19!*1!)) + (20!/(18!*2!)) + (20!/(17!*3!))
+# Hence, (20!)/(20!*0!) + (20!/(19!*1!)) + (20!/(18!*2!)) + (20!/(17!*3!))
 # + (20!/(16!*4!)).
 
 answer <- 1 + (factorial(20) / (factorial(19) * factorial(1))) +
