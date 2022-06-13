@@ -63,7 +63,7 @@ LOOCV <- function(predictor_set, comb_number) {
         predictors <- c(predictors, predictor)
     }
     for (j in 1:comb_number) {
-        if (j != comb_number){
+        if (j != comb_number) {
             x_var_formula <- paste(x_var_formula, predictors[j], "+")
         }
         else{
@@ -96,3 +96,17 @@ print(MSE_1)
 print(MSE_2)
 print(MSE_3)
 print(MSE_4)
+
+# Displaying the histogram for the CV errors for all the models
+MSE_list = c(MSE_1, MSE_2, MSE_3, MSE_4)
+print(MSE_list)
+
+hist(MSE_list, main = 'CV error histogram', xlab = 'CV errors',  # nolint
+ylim = c(0, 2000), col = '#5d995d', border = 'black') # nolint
+
+# Fitting the best model on the training data.
+formula <- "Y ~ V10 + V13 + V17"
+model <- lm(formula, data = train_data_2008)
+summar <- summary(model)
+coeff <- summar$coefficients[, 1]
+print(coeff)
